@@ -1,0 +1,638 @@
+[
+  {
+    "id": 1,
+    "nickname": "나무",
+    "message": "후회 안남기게 끝까지 다 보여주겠습니다",
+    "profile_image": "assets/profiles/나무.png"
+  },
+  {
+    "id": 2,
+    "nickname": "리얼윤구",
+    "message": "후회없도록 최선을 다하겠습니다.",
+    "profile_image": "assets/profiles/리얼윤구.jpg"
+  },
+  {
+    "id": 3,
+    "nickname": "마법사고양이",
+    "message": "아자아자 화이팅!",
+    "profile_image": "assets/profiles/마법사고양이.jpg"
+  },
+  {
+    "id": 4,
+    "nickname": "일리가있어",
+    "message": "더 나은 기술로 누군가를 도울 수 있도록, 이 대회에서 배우고 성장하겠습니다!",
+    "profile_image": "assets/profiles/일리가있어.jpeg"
+  },
+  {
+    "id": 5,
+    "nickname": "티거",
+    "message": "100등 안에 든 것도 영광입니다. 좋은 문제 많이 보고 AI 활용에 대해 공부하겠습니다.",
+    "profile_image": "assets/profiles/티거.png"
+  },
+  {
+    "id": 6,
+    "nickname": "라니",
+    "message": "제가 1등 할게요",
+    "profile_image": "assets/profiles/라니.png"
+  },
+  {
+    "id": 7,
+    "nickname": "임포스터신드롬",
+    "message": "일단 해보면 뭐라도 되겠지",
+    "profile_image": "assets/profiles/임포스터신드롬.jpeg"
+  },
+  {
+    "id": 8,
+    "nickname": "오트콜드브루",
+    "message": "열심히 해보겠습니다",
+    "profile_image": "assets/profiles/오트콜드브루.jpg"
+  },
+  {
+    "id": 9,
+    "nickname": "수",
+    "message": "Ai for Human",
+    "profile_image": "assets/profiles/수.jpg"
+  },
+  {
+    "id": 10,
+    "nickname": "김영근",
+    "message": "감사합니다. 재밌게 잘 풀어보겠습니다 :)",
+    "profile_image": "assets/profiles/김영근.jpeg"
+  },
+  {
+    "id": 11,
+    "nickname": "타라게임즈",
+    "message": "AI는 기업의 성패를 가를 도구라고 생각합니다. 누구보다 잘 사용하겠습니다.",
+    "profile_image": "assets/profiles/타라게임즈.png"
+  },
+  {
+    "id": 12,
+    "nickname": "오픈필로티",
+    "message": "으하하하",
+    "profile_image": "assets/profiles/오픈필로티.jpeg"
+  },
+  {
+    "id": 13,
+    "nickname": "송하냥",
+    "message": "Speical One",
+    "profile_image": "assets/profiles/송하냥.jpg"
+  },
+  {
+    "id": 14,
+    "nickname": "레츠고준형",
+    "message": "예선에서도 그랬듯 경쟁이 아닌 즐거운 마음으로 즐기다가 가겠습니다.",
+    "profile_image": "assets/profiles/레츠고준형.jpg"
+  },
+  {
+    "id": 15,
+    "nickname": "딸깍딸깍캐뤼",
+    "message": "좋은 결과가 나와서 롤하러 가고 싶습니다",
+    "profile_image": "assets/profiles/딸깍딸깍캐뤼.jpg"
+  },
+  {
+    "id": 16,
+    "nickname": "골빈해커",
+    "message": "꼴찌는 면하도록 최선을 다하겠습니다. 🥹",
+    "profile_image": "assets/profiles/골빈해커.png"
+  },
+  {
+    "id": 17,
+    "nickname": "잔상",
+    "message": "준비만으로 많은 공부가 될 좋은 기회인 것 같습니다.",
+    "profile_image": "assets/profiles/잔상.jpg"
+  },
+  {
+    "id": 18,
+    "nickname": "김케빈",
+    "message": "열정이 넘치는 많은 분들과 재미있게 즐겨보겠습니다!",
+    "profile_image": "assets/profiles/김케빈.jpeg"
+  },
+  {
+    "id": 19,
+    "nickname": "그르르",
+    "message": "마음껏 누려버리겠습니다!",
+    "profile_image": "assets/profiles/그르르.png"
+  },
+  {
+    "id": 20,
+    "nickname": "프란",
+    "message": "삼천만원",
+    "profile_image": "assets/profiles/프란.jpeg"
+  },
+  {
+    "id": 21,
+    "nickname": "박건영",
+    "message": "대회를 통해 AI 역량을 최대한 발휘하여 의미있는 성과를 만들어내고 싶습니다",
+    "profile_image": "assets/profiles/박건영.jpg"
+  },
+  {
+    "id": 22,
+    "nickname": "시쿠",
+    "message": "Enjoy & Vibe",
+    "profile_image": "assets/profiles/시쿠.png"
+  },
+  {
+    "id": 23,
+    "nickname": "아키텍",
+    "message": "미래의 다가올 뉴노멀을 맞이하는 기념비적인 대회라 생각하며 좋은 경험을 가져가 보겠습니다.",
+    "profile_image": "assets/profiles/아키텍.png"
+  },
+  {
+    "id": 24,
+    "nickname": "노리치테리어",
+    "message": "온김에 열심히 합시다",
+    "profile_image": "assets/profiles/노리치테리어.jpeg"
+  },
+  {
+    "id": 25,
+    "nickname": "준영",
+    "message": "재미있는 대회라서 벌써 기대됩니다. 좋은 성과 내보겠습니다!",
+    "profile_image": "assets/profiles/준영.png"
+  },
+  {
+    "id": 26,
+    "nickname": "스카이워커",
+    "message": "본선에 진출하다니 너무 기쁩니다. 의미 있는 성과를 거둘 수 있도록 최선을 다 하겠습니다.",
+    "profile_image": "assets/profiles/스카이워커.jpg"
+  },
+  {
+    "id": 27,
+    "nickname": "코딩빌런",
+    "message": "본선 참여하게 돼서 기쁩니다. 다른 참가자 분들에게 많이 배워가고 싶습니다!",
+    "profile_image": "assets/profiles/코딩빌런.png"
+  },
+  {
+    "id": 28,
+    "nickname": "한교동",
+    "message": "상금은 제가 받도록 하겠습니다",
+    "profile_image": "assets/profiles/한교동.png"
+  },
+  {
+    "id": 29,
+    "nickname": "방희락",
+    "message": "좋은 기회를 주셔서 감사합니다. 최선을 다해보겠습니다!",
+    "profile_image": "assets/profiles/방희락.png"
+  },
+  {
+    "id": 30,
+    "nickname": "백상현",
+    "message": "최선을 다해 좋은 결과를 꼭 이루겠습니다.",
+    "profile_image": "assets/profiles/백상현.jpeg"
+  },
+  {
+    "id": 31,
+    "nickname": "나는상어당",
+    "message": "최고의 AI 사용자는 아닐 수 있지만 대회 최고의 플레이어가 될 것입니다.",
+    "profile_image": "assets/profiles/나는상어당.jpeg"
+  },
+  {
+    "id": 32,
+    "nickname": "우마이",
+    "message": "마음을 불태워라. 한계를 넘어서라.",
+    "profile_image": "assets/profiles/우마이.png"
+  },
+  {
+    "id": 33,
+    "nickname": "집떠나면고생",
+    "message": "돈 많이 벌기",
+    "profile_image": "assets/profiles/집떠나면고생.jpg"
+  },
+  {
+    "id": 34,
+    "nickname": "서재원",
+    "message": "평소의 구독료가 헛되지 않았음을 증명하도록 하겠습니다.",
+    "profile_image": "assets/profiles/서재원.png"
+  },
+  {
+    "id": 35,
+    "nickname": "미음",
+    "message": "Always Learning. Always Building.",
+    "profile_image": "assets/profiles/미음.png"
+  },
+  {
+    "id": 36,
+    "nickname": "원두커피",
+    "message": "잘부탁드립니다",
+    "profile_image": "assets/profiles/원두커피.jpeg"
+  },
+  {
+    "id": 37,
+    "nickname": "별하솜",
+    "message": "반드시 입상하겠습니다",
+    "profile_image": "assets/profiles/별하솜.jpeg"
+  },
+  {
+    "id": 38,
+    "nickname": "잘모릅니다",
+    "message": "잘 모르지만 끝까지 가보겠습니다.",
+    "profile_image": "assets/profiles/잘모릅니다.png"
+  },
+  {
+    "id": 39,
+    "nickname": "설코딩",
+    "message": "열심히 준비해서 좋은 추억 만들고 싶어요!",
+    "profile_image": "assets/profiles/설코딩.png"
+  },
+  {
+    "id": 40,
+    "nickname": "소대장",
+    "message": "한 수 배워가겠습니다",
+    "profile_image": "assets/profiles/소대장.png"
+  },
+  {
+    "id": 41,
+    "nickname": "츄파츕스",
+    "message": "최선을 다해서 열심히 해보겠습니다!",
+    "profile_image": "assets/profiles/츄파츕스.jpeg"
+  },
+  {
+    "id": 42,
+    "nickname": "이즈비",
+    "message": "주어진 시간동안 최선을 다해 재밌고 즐겁게 참여하겠습니다.",
+    "profile_image": "assets/profiles/이즈비.png"
+  },
+  {
+    "id": 43,
+    "nickname": "메가리치맨",
+    "message": "일하면서 놀면서 쌓아왔던 AI 능력을 모두 활용하여 본선에서 우승하겠습니다.",
+    "profile_image": "assets/profiles/메가리치맨.jpg"
+  },
+  {
+    "id": 44,
+    "nickname": "송단호",
+    "message": "예선도 너무 즐거운 경험이었습니다! 많은 것들 배우고 즐기는 시간이 되었으면 합니다!",
+    "profile_image": "assets/profiles/송단호.jpg"
+  },
+  {
+    "id": 45,
+    "nickname": "신종",
+    "message": "잘부탁드립니다",
+    "profile_image": "assets/profiles/신종.jpeg"
+  },
+  {
+    "id": 46,
+    "nickname": "거북이",
+    "message": "최선을 다해 일 시키겠습니다",
+    "profile_image": "assets/profiles/거북이.png"
+  },
+  {
+    "id": 47,
+    "nickname": "안도훈",
+    "message": "화이팅",
+    "profile_image": "assets/profiles/안도훈.jpeg"
+  },
+  {
+    "id": 48,
+    "nickname": "렉스",
+    "message": "AI는 거대한 파도입니다. 파도를 막을 수는 없지만, 우리는 서퍼가 될 수 있습니다.",
+    "profile_image": "assets/profiles/렉스.jpg"
+  },
+  {
+    "id": 49,
+    "nickname": "육대근",
+    "message": "뭐 어떻게든 되겠지...",
+    "profile_image": "assets/profiles/육대근.jpg"
+  },
+  {
+    "id": 50,
+    "nickname": "불혹바이브코딩",
+    "message": "40대 비개발자 아빠의 도전! 가족에게 도전하는 모습 보이며 성장하겠습니다",
+    "profile_image": "assets/profiles/불혹바이브코딩.png"
+  },
+  {
+    "id": 51,
+    "nickname": "오호라",
+    "message": "인간과 AI의 상호작용을 통해 더 나은 사회를 향한 첫걸음을 내딛겠습니다.",
+    "profile_image": "assets/profiles/오호라.png"
+  },
+  {
+    "id": 52,
+    "nickname": "알고리듬",
+    "message": "AI와 친해지는 중이지만, 흐름을 타고 어려운 문제도 해결하겠습니다.",
+    "profile_image": "assets/profiles/알고리듬.png"
+  },
+  {
+    "id": 53,
+    "nickname": "리키",
+    "message": "자 본선 드가자~",
+    "profile_image": "assets/profiles/리키.png"
+  },
+  {
+    "id": 54,
+    "nickname": "이동호",
+    "message": "되는데까지 해보겠습니다",
+    "profile_image": "assets/profiles/이동호.jpeg"
+  },
+  {
+    "id": 55,
+    "nickname": "가나당",
+    "message": "기왕이니 1등을 노려보겠습니다",
+    "profile_image": "assets/profiles/가나당.jpg"
+  },
+  {
+    "id": 56,
+    "nickname": "이림",
+    "message": "그냥 하는거죠.",
+    "profile_image": "assets/profiles/이림.jpg"
+  },
+  {
+    "id": 57,
+    "nickname": "상민중한명",
+    "message": "재밌는 문제와 함께 신나게 즐겨보겠습니다",
+    "profile_image": "assets/profiles/상민중한명.png"
+  },
+  {
+    "id": 58,
+    "nickname": "이선민",
+    "message": "본선은 AI 축제라 생각하고 즐기다 오겠습니다!",
+    "profile_image": "assets/profiles/이선민.png"
+  },
+  {
+    "id": 59,
+    "nickname": "빈프로",
+    "message": "저진짜열심히할게요",
+    "profile_image": "assets/profiles/빈프로.jpeg"
+  },
+  {
+    "id": 60,
+    "nickname": "우디",
+    "message": "하면 된다 할 수 있다 아자아자 화이팅",
+    "profile_image": "assets/profiles/우디.jpeg"
+  },
+  {
+    "id": 61,
+    "nickname": "이유종",
+    "message": "열심히 해보겠습니다.",
+    "profile_image": "assets/profiles/이유종.jpeg"
+  },
+  {
+    "id": 62,
+    "nickname": "지니준",
+    "message": "통제된 AI = 완성된 성공 방정식",
+    "profile_image": "assets/profiles/지니준.png"
+  },
+  {
+    "id": 63,
+    "nickname": "울새",
+    "message": "울새는 영역 확장 중.",
+    "profile_image": "assets/profiles/울새.jpg"
+  },
+  {
+    "id": 64,
+    "nickname": "김자반",
+    "message": "수많은 개발자들 사이에서 살아남는 영상제작자가 되겠습니다. 대한민국 영상인 화이팅!",
+    "profile_image": "assets/profiles/김자반.jpg"
+  },
+  {
+    "id": 65,
+    "nickname": "파도",
+    "message": "GPT와 열심히 친해진 만큼 우정을 증명해 보겠습니다!",
+    "profile_image": "assets/profiles/파도.jpeg"
+  },
+  {
+    "id": 66,
+    "nickname": "도돌",
+    "message": "미국에서 한국 가는 만큼, 비행기 값은 벌고 가겠습니다!",
+    "profile_image": "assets/profiles/도돌.jpeg"
+  },
+  {
+    "id": 67,
+    "nickname": "의문의부산대생",
+    "message": "AI 시대에 맞는 좋은 취지의 대회를 마련해주셔서 감사합니다. 많이 배워가겠습니다.",
+    "profile_image": "assets/profiles/의문의부산대생.jpg"
+  },
+  {
+    "id": 68,
+    "nickname": "종스카이",
+    "message": "ALL IS WELL!",
+    "profile_image": "assets/profiles/종스카이.png"
+  },
+  {
+    "id": 69,
+    "nickname": "이찬회",
+    "message": "잘해보자",
+    "profile_image": "assets/profiles/이찬회.jpg"
+  },
+  {
+    "id": 70,
+    "nickname": "챗과장",
+    "message": "AI하면 ‘챗과장’이 떠오르도록 본선도 철저히 준비하겠습니다!",
+    "profile_image": "assets/profiles/챗과장.png"
+  },
+  {
+    "id": 71,
+    "nickname": "이흥규",
+    "message": "겸손하게 열심히, 잘 해보겠습니다!",
+    "profile_image": "assets/profiles/이흥규.jpg"
+  },
+  {
+    "id": 72,
+    "nickname": "똘에이아이",
+    "message": "화이팅",
+    "profile_image": "assets/profiles/똘에이아이.jpg"
+  },
+  {
+    "id": 73,
+    "nickname": "수민",
+    "message": "학부 졸업 전 라스트댄스, 중요한 건 꺾이지 않는 마음!",
+    "profile_image": "assets/profiles/수민.png"
+  },
+  {
+    "id": 74,
+    "nickname": "나트",
+    "message": "재미있게 즐기다 가겠습니다!",
+    "profile_image": "assets/profiles/나트.png"
+  },
+  {
+    "id": 75,
+    "nickname": "민규",
+    "message": "언제나 배우는 자세로 임하겠습니다!!!",
+    "profile_image": "assets/profiles/민규.png"
+  },
+  {
+    "id": 76,
+    "nickname": "리코타",
+    "message": "툴을 만드는 사람이 툴을 가장 잘 다룰 줄 알아야 한다고 생각합니다. 최선을 다하겠습니다!",
+    "profile_image": "assets/profiles/리코타.png"
+  },
+  {
+    "id": 77,
+    "nickname": "코점스튜디오",
+    "message": "시대 정신 그리고 인간 역사에 터닝 포인트를 만들고자 파트너 AI와 함께 합니다.",
+    "profile_image": "assets/profiles/코점스튜디오.jpg"
+  },
+  {
+    "id": 78,
+    "nickname": "후니",
+    "message": "대단한 분들 사이에서 살아남아보겠다",
+    "profile_image": "assets/profiles/후니.png"
+  },
+  {
+    "id": 79,
+    "nickname": "프날",
+    "message": "대회가 끝난 후 모두가 제 이름을 기억하게 만들겠습니다.",
+    "profile_image": "assets/profiles/프날.png"
+  },
+  {
+    "id": 80,
+    "nickname": "정병기",
+    "message": "좋은기회 주셔서 감사합니다. 생각지 못했어서 아직 얼떨떨 합니다만 최선을 다해보겠습니다.",
+    "profile_image": "assets/profiles/정병기.png"
+  },
+  {
+    "id": 81,
+    "nickname": "원타츄",
+    "message": "문제가 다소 어려워서 본선 진출을 기대하지 않았는데, 기왕 이렇게 된거 열심히 해보겠습니다",
+    "profile_image": "assets/profiles/원타츄.jpg"
+  },
+  {
+    "id": 82,
+    "nickname": "테스트",
+    "message": "그냥 참가자1입니다",
+    "profile_image": "assets/profiles/테스트.jpg"
+  },
+  {
+    "id": 83,
+    "nickname": "정현민",
+    "message": "끝까지 간다.",
+    "profile_image": "assets/profiles/정현민.jpg"
+  },
+  {
+    "id": 84,
+    "nickname": "딥식이",
+    "message": "열심히 해보죠",
+    "profile_image": "assets/profiles/딥식이.png"
+  },
+  {
+    "id": 85,
+    "nickname": "별이울리다",
+    "message": "평소에 자주 사용하던 만큼, 평소대로 재밌게 풀어보고 싶습니다",
+    "profile_image": "assets/profiles/별이울리다.jpg"
+  },
+  {
+    "id": 86,
+    "nickname": "냐로",
+    "message": "제 실력을 확인해 보고 싶어요.",
+    "profile_image": "assets/profiles/냐로.png"
+  },
+  {
+    "id": 87,
+    "nickname": "싸이버거",
+    "message": "재밌게 하겠습니다",
+    "profile_image": "assets/profiles/싸이버거.jpeg"
+  },
+  {
+    "id": 88,
+    "nickname": "최동혁",
+    "message": "시대의 속도보다 반발자국 앞서나가고 있는지, 이번 기회에 스스로를 점검해보겠습니다",
+    "profile_image": "assets/profiles/최동혁.jpg"
+  },
+  {
+    "id": 89,
+    "nickname": "겨울잠두꺼비",
+    "message": "클로드야 GPT야 잘하자! 화이팅!",
+    "profile_image": "assets/profiles/겨울잠두꺼비.png"
+  },
+  {
+    "id": 90,
+    "nickname": "뉴네다",
+    "message": "알잘딱깔센한 프롬프트로 AI를 탈탈 털어보겠습니다. AI TOP 100 준비 갈 완료!!",
+    "profile_image": "assets/profiles/뉴네다.jpeg"
+  },
+  {
+    "id": 91,
+    "nickname": "애니프사승리",
+    "message": "청춘은 바로 지금~",
+    "profile_image": "assets/profiles/애니프사승리.jpg"
+  },
+  {
+    "id": 92,
+    "nickname": "정원",
+    "message": "화이팅",
+    "profile_image": "assets/profiles/정원.png"
+  },
+  {
+    "id": 93,
+    "nickname": "점핑맨",
+    "message": "좋은데요~",
+    "profile_image": "assets/profiles/점핑맨.png"
+  },
+  {
+    "id": 94,
+    "nickname": "그린",
+    "message": "피할 수 없다면 즐겨라",
+    "profile_image": "assets/profiles/그린.jpg"
+  },
+  {
+    "id": 95,
+    "nickname": "도하",
+    "message": "호랑이 기운으로 입상할 강력한 퍼포먼스를 보여드리겠습니다.",
+    "profile_image": "assets/profiles/도하.png"
+  },
+  {
+    "id": 96,
+    "nickname": "하상현",
+    "message": "늘 하던대로 화이팅!",
+    "profile_image": "assets/profiles/하상현.jpg"
+  },
+  {
+    "id": 97,
+    "nickname": "조시",
+    "message": "AI 제품을 만들고 있는 기획자, 이젠 무대 위에서 자존심을 업데이트한다 🚀",
+    "profile_image": "assets/profiles/조시.png"
+  },
+  {
+    "id": 98,
+    "nickname": "쿨크래커",
+    "message": "여단아, 선주야, 선우야 사랑해 ❤️",
+    "profile_image": "assets/profiles/쿨크래커.png"
+  },
+  {
+    "id": 99,
+    "nickname": "인간시대의끝이",
+    "message": "AI를 잘 활용해 보겠습니다.",
+    "profile_image": "assets/profiles/인간시대의끝이.jpeg"
+  },
+  {
+    "id": 100,
+    "nickname": "대한",
+    "message": "AI 툴을 활용하여 문제를 잘 정의하고 풀어가는 과정에 몰입하겠습니다.",
+    "profile_image": "assets/profiles/대한.png"
+  },
+  {
+    "id": 101,
+    "nickname": "프롬크리에이터",
+    "message": "가장 기본적인 도구로 많은 일들을 할 수 있다는 것을 많은 사람들에게 알려주고 싶습니다.",
+    "profile_image": "assets/profiles/프롬크리에이터.jpeg"
+  },
+  {
+    "id": 102,
+    "nickname": "머핀",
+    "message": "심장을 바쳐라! 저의 한계에 도전해보겠습니다",
+    "profile_image": "assets/profiles/머핀.jpeg"
+  },
+  {
+    "id": 103,
+    "nickname": "잼영",
+    "message": "우승까지 가보겠습니다!!",
+    "profile_image": "assets/profiles/잼영.jpg"
+  },
+  {
+    "id": 104,
+    "nickname": "재승이",
+    "message": "열심히 그리고 재밌게 해보자! 그리고 많이 배워가겠습니다ㅎ",
+    "profile_image": "assets/profiles/재승이.png"
+  },
+  {
+    "id": 105,
+    "nickname": "빈종이",
+    "message": "이당근 양, 보고 있나! 🥕",
+    "profile_image": "assets/profiles/빈종이.png"
+  },
+  {
+    "id": 106,
+    "nickname": "구라타",
+    "message": "잘 즐기다가 가겠습니다~!",
+    "profile_image": "assets/profiles/구라타.jpg"
+  }
+]

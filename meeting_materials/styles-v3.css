@@ -1,0 +1,574 @@
+/* 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 7680px;
+    height: 2160px;
+    background-color: #000000;
+    font-family: 'SUITE Variable', sans-serif;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+/* 섹션 공통 스타일 */
+.section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.section.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 오프닝 섹션 (Scene 01) */
+#opening {
+    flex-direction: column;
+    gap: 0;
+}
+
+#opening .video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#opening .title-video {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 엔딩 섹션 */
+#ending {
+    opacity: 0;
+}
+
+#ending.active {
+    animation: endingFadeIn 1s ease-in forwards, endingFadeOut 1s ease-out 2s forwards;
+}
+
+#ending .main-logo {
+    max-height: 300px;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 프로필 섹션 헤더 (영상 녹화용 숨김) */
+.header {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    display: none; /* 영상 녹화용: 상단 헤더 제거 */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    z-index: 100;
+}
+
+.header-logo {
+    max-height: 100px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.header-slogan {
+    font-size: 60px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #04F3FF, #90F779, #DDF730, #FFBD19, #FF638A, #FF1FE0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* 프로필 컨테이너 (5행 레이아웃) */
+.profiles-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px 120px; /* 5행에 맞게 상하 여백 조정 */
+    position: relative;
+}
+
+/* 프로필 컨테이너 가로 이동 (JavaScript로 제어) */
+.profiles-container.scrolling {
+    /* animation 제거 - JavaScript requestAnimationFrame으로 대체 */
+}
+
+/* 각 행 */
+.profile-row {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    justify-content: flex-start;
+    /* 행 전체의 레이아웃 변화도 부드럽게 */
+    transition: all 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/* 슬로건 카드 */
+.slogan-card {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-width: 800px;
+}
+
+.slogan-icon {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.4));
+}
+
+.slogan-text {
+    font-size: 80px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #04F3FF, #90F779, #DDF730, #FFBD19, #FF638A, #FF1FE0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    white-space: nowrap;
+}
+
+/* 로고 카드 */
+.logo-card {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+}
+
+.logo-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* 프로필 슬롯 */
+.profile-slot {
+    flex-shrink: 0;
+    min-width: 0;
+    opacity: 0;
+    /* 부드러운 cubic-bezier 이징으로 자연스러운 모션 */
+    transition: min-width 1.2s cubic-bezier(0.4, 0.0, 0.2, 1), opacity 0.3s ease;
+    /* GPU 가속 활성화 */
+    will-change: min-width;
+}
+
+.profile-slot.active {
+    opacity: 1;
+}
+
+/* 프로필 모듈 */
+.profile-module {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    /* 전체 모듈의 크기 변화도 부드럽게 */
+    transition: all 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    will-change: transform;
+}
+
+/* 프로필 이미지 */
+.profile-image-wrapper {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    background-color: #1a1a1a;
+}
+
+/* 이미지 축소 (1초 - wipe-out과 동기화) */
+.profile-image-wrapper.fade-out .profile-image {
+    animation: imageScaleOut 1s ease-out forwards;
+}
+
+/* 이미지 확대 (1초 - wipe-in과 동기화) */
+.profile-image-wrapper.fade-in .profile-image {
+    animation: imageScaleIn 1s ease-out forwards;
+}
+
+@keyframes imageScaleOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+}
+
+@keyframes imageScaleIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 프로필 텍스트 영역 */
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+    overflow: hidden;
+    /* 텍스트 영역 크기 변화도 부드럽게 */
+    transition: all 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+    will-change: width;
+}
+
+/* 닉네임 (작게, 아래) */
+.profile-nickname {
+    font-size: 36px;
+    font-weight: 600;
+    color: #e0e0e0;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 닉네임 와이프 효과 (1초) */
+.profile-nickname.wipe-out {
+    animation: wipeOutRightToLeft 1s ease-out forwards;
+}
+
+.profile-nickname.wipe-in {
+    animation: wipeInLeftToRight 1s ease-out forwards;
+}
+
+/* 오른쪽에서 왼쪽으로 줄어들기 (오→왼) */
+@keyframes wipeOutRightToLeft {
+    0% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+    100% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+}
+
+/* 왼쪽에서 오른쪽으로 펼쳐지기 (왼→오) */
+@keyframes wipeInLeftToRight {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+/* 메시지 (크게, 위) */
+.profile-message {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.3;
+    color: #FFFFFF;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 메시지 와이프 효과 (1초) */
+.profile-message.wipe-out {
+    animation: wipeOutRightToLeft 1s ease-out forwards;
+}
+
+.profile-message.wipe-in {
+    animation: wipeInLeftToRight 1s ease-out forwards;
+}
+
+/* 언더바 (메시지 크기만큼 굵게, 와이프 애니메이션 추가) */
+.profile-underbar {
+    height: 56px;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+    /* 부드러운 width 전환과 clip-path 동시 처리 */
+    transition: width 1.2s cubic-bezier(0.4, 0.0, 0.2, 1), clip-path 1s ease-out;
+    will-change: width, clip-path;
+}
+
+/* 언더바 와이프 효과 (1초) */
+.profile-underbar.wipe-out {
+    animation: underbarWipeOut 1s ease-out forwards;
+}
+
+.profile-underbar.wipe-in {
+    animation: underbarWipeIn 1s ease-out forwards;
+}
+
+@keyframes underbarWipeOut {
+    0% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+    100% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+}
+
+@keyframes underbarWipeIn {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+/* 언더바 흐름 효과 */
+.profile-underbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: underbarFlow 2s linear infinite;
+}
+
+@keyframes underbarFlow {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+/* Scene 02/05 언더바 배경 효과 */
+.underbar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 50;
+    display: none;
+}
+
+.underbar-bg.active {
+    display: block;
+}
+
+/* 언더바 배경 요소들 - Scene 02용 (10배 크게) */
+.underbar-line {
+    position: absolute;
+    height: 240px;
+    border-radius: 0;
+    opacity: 0;
+}
+
+/* Scene 02 진입 애니메이션 - 더 굵고 빠르게 */
+.underbar-line.enter {
+    animation: underbarEnter 0.5s ease-out forwards;
+}
+
+@keyframes underbarEnter {
+    0% {
+        left: -20%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        left: 120%;
+        opacity: 0;
+    }
+}
+
+/* Scene 02 로고/아이콘 요소 - 10배 크게 */
+.scene02-logo, .scene02-icon {
+    position: absolute;
+    opacity: 0;
+    animation: elementEnter 0.7s ease-out forwards;
+}
+
+.scene02-logo {
+    width: 2000px;
+    height: auto;
+}
+
+.scene02-icon {
+    width: 1200px;
+    height: 1200px;
+    object-fit: contain;
+}
+
+@keyframes elementEnter {
+    0% {
+        left: -10%;
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    30% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        left: 110%;
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+/* Scene 05 퇴장 애니메이션 */
+.underbar-line.exit {
+    animation: underbarExit 1s ease-out forwards;
+}
+
+@keyframes underbarExit {
+    0% {
+        right: 120%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        right: -20%;
+        opacity: 0;
+    }
+}
+
+/* 프로필 섹션 페이드인 (간단하고 빠르게) */
+#profiles.active {
+    animation: simpleFadeIn 0.5s ease-out forwards;
+}
+
+@keyframes simpleFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 고정 호스트 로고 (우측 하단, 스크롤 안 됨) */
+.fixed-hosts-logo {
+    position: absolute;
+    bottom: 160px; /* 프로필 보드 바로 아래 위치 (하단 여백 2배) */
+    right: 120px;
+    z-index: 200;
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+}
+
+#profiles.active .fixed-hosts-logo {
+    opacity: 1;
+}
+
+.hosts-logo-img {
+    max-width: 1800px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.3));
+}
+
+/* 고정 크레딧 (좌측 하단, 스크롤 안 됨) */
+.fixed-credit {
+    position: absolute;
+    bottom: 160px; /* 호스트 로고와 같은 높이 */
+    left: 120px;
+    z-index: 200;
+    opacity: 0;
+    transition: opacity 0.8s ease-out;
+}
+
+#profiles.active .fixed-credit {
+    opacity: 1;
+}
+
+.fixed-credit .credit-text {
+    font-size: 36px;
+    font-weight: 500;
+    color: #888888;
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* 엔딩 애니메이션 */
+@keyframes endingFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes endingFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

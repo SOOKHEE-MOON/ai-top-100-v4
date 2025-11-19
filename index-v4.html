@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI_TOP_100 프로필 보드 v4</title>
+    <link rel="stylesheet" href="styles-v4.css">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/variable/woff2/SUITE-Variable.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 오프닝 섹션 (Scene 01) - v0.3: 제거됨 -->
+    <div id="opening" class="section">
+        <div class="video-container">
+            <video id="title-video" class="title-video" muted playsinline>
+                <source src="assets/logo/Title_C.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div id="templates" style="position: absolute; z-index: -1; visibility: hidden"></div>
+
+    <!-- 프로필 섹션 (5행 레이아웃) -->
+    <div id="profiles" class="section">
+        <!-- 헤더 (로고 + 슬로건) -->
+        <div class="header">
+            <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="header-logo">
+            <div class="header-slogan">미래를 가속하는 도전</div>
+        </div>
+
+        <!-- 5행 레이아웃 (25개 슬롯, 가로 스크롤 유지) -->
+        <div class="profiles-container">
+            <!-- 1행: 슬롯0-1 + 로고 + 슬롯2-3-4 -->
+            <div class="profile-row row-1" style="left: -700px">
+                <div class="profile-slot" data-slot="0"></div>
+                <div class="profile-slot" data-slot="1"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="2"></div>
+                <div class="profile-slot" data-slot="3"></div>
+                <div class="profile-slot" data-slot="4"></div>
+
+                <!-- 복제 -->
+                <div class="profile-slot" data-slot="0"></div>
+                <div class="profile-slot" data-slot="1"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="2"></div>
+                <div class="profile-slot" data-slot="3"></div>
+                <div class="profile-slot" data-slot="4"></div>
+            </div>
+
+            <!-- 2행: 슬롯5-6 + 슬로건 + 슬롯7-8-9 -->
+            <div class="profile-row row-2" style="left: -1400px">
+                <div class="profile-slot" data-slot="5"></div>
+                <div class="profile-slot" data-slot="6"></div>
+                <div class="slogan-card">
+                    <div class="slogan-icon">
+                        <img src="assets/icons/rocket_pen_4096_P.png" alt="icon" class="icon-img">
+                    </div>
+                    <div class="slogan-text">미래를 가속하는 도전.</div>
+                </div>
+                <div class="profile-slot" data-slot="7"></div>
+                <div class="profile-slot" data-slot="8"></div>
+                <div class="profile-slot" data-slot="9"></div>
+
+                <!-- 복제 -->
+                <div class="profile-slot" data-slot="5"></div>
+                <div class="profile-slot" data-slot="6"></div>
+                <div class="slogan-card">
+                    <div class="slogan-icon">
+                        <img src="assets/icons/rocket_pen_4096_P.png" alt="icon" class="icon-img">
+                    </div>
+                    <div class="slogan-text">미래를 가속하는 도전.</div>
+                </div>
+                <div class="profile-slot" data-slot="7"></div>
+                <div class="profile-slot" data-slot="8"></div>
+                <div class="profile-slot" data-slot="9"></div>
+            </div>
+
+            <!-- 3행: 슬롯10-11-12 + 로고 + 슬롯13-14 -->
+            <div class="profile-row row-3" style="left: -2100px">
+                <div class="profile-slot" data-slot="10"></div>
+                <div class="profile-slot" data-slot="11"></div>
+                <div class="profile-slot" data-slot="12"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="13"></div>
+                <div class="profile-slot" data-slot="14"></div>
+
+                <!-- 복제 -->
+                <div class="profile-slot" data-slot="10"></div>
+                <div class="profile-slot" data-slot="11"></div>
+                <div class="profile-slot" data-slot="12"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="13"></div>
+                <div class="profile-slot" data-slot="14"></div>
+            </div>
+
+            <!-- 4행: 슬롯15 + 슬로건 + 슬롯16-17-18-19 -->
+            <div class="profile-row row-4" style="left: -2800px">
+                <div class="profile-slot" data-slot="15"></div>
+                <div class="slogan-card">
+                    <div class="slogan-icon">
+                        <img src="assets/icons/light_4096_P.png" alt="icon" class="icon-img">
+                    </div>
+                    <div class="slogan-text">AI가 여는 새로운 미래.</div>
+                </div>
+                <div class="profile-slot" data-slot="16"></div>
+                <div class="profile-slot" data-slot="17"></div>
+                <div class="profile-slot" data-slot="18"></div>
+                <div class="profile-slot" data-slot="19"></div>
+
+                <!-- 복제 -->
+                <div class="profile-slot" data-slot="15"></div>
+                <div class="slogan-card">
+                    <div class="slogan-icon">
+                        <img src="assets/icons/light_4096_P.png" alt="icon" class="icon-img">
+                    </div>
+                    <div class="slogan-text">AI가 여는 새로운 미래.</div>
+                </div>
+                <div class="profile-slot" data-slot="16"></div>
+                <div class="profile-slot" data-slot="17"></div>
+                <div class="profile-slot" data-slot="18"></div>
+                <div class="profile-slot" data-slot="19"></div>
+            </div>
+
+            <!-- 5행: 슬롯20-21 + 로고 + 슬롯22-23-24 -->
+            <div class="profile-row row-5" style="left: -3500px">
+                <div class="profile-slot" data-slot="20"></div>
+                <div class="profile-slot" data-slot="21"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="22"></div>
+                <div class="profile-slot" data-slot="23"></div>
+                <div class="profile-slot" data-slot="24"></div>
+
+                <!-- 복제 -->
+                <div class="profile-slot" data-slot="20"></div>
+                <div class="profile-slot" data-slot="21"></div>
+                <div class="logo-card">
+                    <img src="assets/logo/aI_top_100_logo_White.png" alt="AI_TOP_100" class="logo-img">
+                </div>
+                <div class="profile-slot" data-slot="22"></div>
+                <div class="profile-slot" data-slot="23"></div>
+                <div class="profile-slot" data-slot="24"></div>
+            </div>
+        </div>
+
+        <!-- 고정 로고 (5행 바로 아래 우측, 스크롤 안 됨) -->
+        <div class="fixed-hosts-logo">
+            <img src="assets/logo/ 주최후원로고_W&B_v0.2.png" alt="AI_TOP_100_hosts" class="hosts-logo-img">
+        </div>
+
+        <!-- 고정 크레딧 (좌측 하단, 스크롤 안 됨) -->
+        <div class="fixed-credit">
+            <div class="credit-text">본 프로필보드는 Claude Code와 함께<br>바이브코딩으로 작업했습니다</div>
+        </div>
+
+        <!-- Scene 02/05 언더바 배경 효과 -->
+        <div class="underbar-bg" id="underbar-bg"></div>
+    </div>
+
+    <!-- 엔딩 섹션 제거 - 프로필 보드만 무한 반복 -->
+
+    <script src="script-v4.js"></script>
+</body>
+</html>
