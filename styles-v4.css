@@ -105,9 +105,9 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 60px;
-    padding: 100px 0; /* 5행에 맞게 상하 여백 조정 */
+    padding: 100px 0 30px 0; /* 상단 100px (16:9와 동일), 하단 30px */
 }
 
 @keyframes scroll-left {
@@ -536,7 +536,7 @@ body {
 /* 고정 호스트 로고 (우측 하단, 스크롤 안 됨) */
 .fixed-hosts-logo {
     position: absolute;
-    bottom: 160px; /* 프로필 보드 바로 아래 위치 (하단 여백 2배) */
+    bottom: 600px; /* 프로필 보드와 넓은 여백 */
     right: 120px;
     z-index: 200;
     opacity: 0;
@@ -559,7 +559,7 @@ body {
 /* 고정 크레딧 (좌측 하단, 스크롤 안 됨) */
 .fixed-credit {
     position: absolute;
-    bottom: 160px; /* 호스트 로고와 같은 높이 */
+    bottom: 600px; /* 호스트 로고와 같은 높이 */
     left: 120px;
     z-index: 200;
     opacity: 0;

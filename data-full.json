@@ -1,638 +1,602 @@
 [
   {
     "id": 1,
-    "nickname": "나무",
-    "message": "후회 안남기게 끝까지 다 보여주겠습니다",
-    "profile_image": "assets/profiles/나무.png"
+    "nickname": "이클립스",
+    "message": "나는 일어나서 자기까지 AI를 쓴다",
+    "profile_image": "assets/profiles_2026/이클립스.png"
   },
   {
     "id": 2,
-    "nickname": "리얼윤구",
-    "message": "후회없도록 최선을 다하겠습니다.",
-    "profile_image": "assets/profiles/리얼윤구.jpg"
+    "nickname": "강동현",
+    "message": "나는 AI를 사용해 신규 서비스들을 AtoZ로 개발한다.",
+    "profile_image": "assets/profiles_2026/강동현.webp"
   },
   {
     "id": 3,
-    "nickname": "마법사고양이",
-    "message": "아자아자 화이팅!",
-    "profile_image": "assets/profiles/마법사고양이.jpg"
+    "nickname": "인간지능강병수",
+    "message": "AI는 나로 인해 논문도 읽고 코드도 짜고 고양이 얘기도 듣는다",
+    "profile_image": "assets/profiles_2026/인간지능강병수.jpeg"
   },
   {
     "id": 4,
-    "nickname": "일리가있어",
-    "message": "더 나은 기술로 누군가를 도울 수 있도록, 이 대회에서 배우고 성장하겠습니다!",
-    "profile_image": "assets/profiles/일리가있어.jpeg"
+    "nickname": "이게왜안되지",
+    "message": "나는 ai의 친구이다.",
+    "profile_image": "assets/profiles_2026/이게왜안되지.png"
   },
   {
     "id": 5,
-    "nickname": "티거",
-    "message": "100등 안에 든 것도 영광입니다. 좋은 문제 많이 보고 AI 활용에 대해 공부하겠습니다.",
-    "profile_image": "assets/profiles/티거.png"
+    "nickname": "졸트라크",
+    "message": "나는 AI로 기획부터 개발까지 해본다",
+    "profile_image": "assets/profiles_2026/졸트라크.jpeg"
   },
   {
     "id": 6,
-    "nickname": "라니",
-    "message": "제가 1등 할게요",
-    "profile_image": "assets/profiles/라니.png"
+    "nickname": "기리",
+    "message": "AI와 나는 한몸이다.",
+    "profile_image": "assets/profiles_2026/기리.png"
   },
   {
     "id": 7,
-    "nickname": "임포스터신드롬",
-    "message": "일단 해보면 뭐라도 되겠지",
-    "profile_image": "assets/profiles/임포스터신드롬.jpeg"
+    "nickname": "한밤중의싸움",
+    "message": "나는 AI로 프로토타입을 만들어 기반기술의 검증과 가능성을 본다.",
+    "profile_image": "assets/profiles_2026/한밤중의싸움.jpg"
   },
   {
     "id": 8,
-    "nickname": "오트콜드브루",
-    "message": "열심히 해보겠습니다",
-    "profile_image": "assets/profiles/오트콜드브루.jpg"
+    "nickname": "야옹라이언",
+    "message": "나는 AI를 이용하여 취약점 자동화 도구를 개발하여 숨겨진 Securit...",
+    "profile_image": "assets/profiles_2026/야옹라이언.jpg"
   },
   {
     "id": 9,
-    "nickname": "수",
-    "message": "Ai for Human",
-    "profile_image": "assets/profiles/수.jpg"
+    "nickname": "김기찬",
+    "message": "나는 AI와 매일 코딩부터 전공 공부까지 해결한다",
+    "profile_image": "assets/profiles_2026/김기찬.jpeg"
   },
   {
     "id": 10,
-    "nickname": "김영근",
-    "message": "감사합니다. 재밌게 잘 풀어보겠습니다 :)",
-    "profile_image": "assets/profiles/김영근.jpeg"
+    "nickname": "안면도꽃게장",
+    "message": "나는 매일AI와 싸운다",
+    "profile_image": "assets/profiles_2026/안면도꽃게장.webp"
   },
   {
     "id": 11,
-    "nickname": "타라게임즈",
-    "message": "AI는 기업의 성패를 가를 도구라고 생각합니다. 누구보다 잘 사용하겠습니다.",
-    "profile_image": "assets/profiles/타라게임즈.png"
+    "nickname": "서밋",
+    "message": "나는 AI로 새로운 가치를 만든다",
+    "profile_image": "assets/profiles_2026/서밋.jpeg"
   },
   {
     "id": 12,
-    "nickname": "오픈필로티",
-    "message": "으하하하",
-    "profile_image": "assets/profiles/오픈필로티.jpeg"
+    "nickname": "미소",
+    "message": "나는 매일 ai로 바이브코딩을 한다.",
+    "profile_image": "assets/profiles_2026/미소.jpeg"
   },
   {
     "id": 13,
-    "nickname": "송하냥",
-    "message": "Speical One",
-    "profile_image": "assets/profiles/송하냥.jpg"
+    "nickname": "졸린잠탱이",
+    "message": "AI는 나의 BackEnd이다.",
+    "profile_image": "assets/profiles_2026/졸린잠탱이.jpg"
   },
   {
     "id": 14,
-    "nickname": "레츠고준형",
-    "message": "예선에서도 그랬듯 경쟁이 아닌 즐거운 마음으로 즐기다가 가겠습니다.",
-    "profile_image": "assets/profiles/레츠고준형.jpg"
+    "nickname": "도미노",
+    "message": "나는 AI로 매일 AI 공부를 한다.",
+    "profile_image": "assets/profiles_2026/도미노.jpg"
   },
   {
     "id": 15,
-    "nickname": "딸깍딸깍캐뤼",
-    "message": "좋은 결과가 나와서 롤하러 가고 싶습니다",
-    "profile_image": "assets/profiles/딸깍딸깍캐뤼.jpg"
+    "nickname": "안녕하숭실",
+    "message": "AI로 따뜻함을 전합니다.",
+    "profile_image": "assets/profiles_2026/안녕하숭실.png"
   },
   {
     "id": 16,
-    "nickname": "골빈해커",
-    "message": "꼴찌는 면하도록 최선을 다하겠습니다. 🥹",
-    "profile_image": "assets/profiles/골빈해커.png"
+    "nickname": "율전동맛피아",
+    "message": "나는 귀찮은 건 전부 AI에게 시킨다",
+    "profile_image": "assets/profiles_2026/율전동맛피아.png"
   },
   {
     "id": 17,
-    "nickname": "잔상",
-    "message": "준비만으로 많은 공부가 될 좋은 기회인 것 같습니다.",
-    "profile_image": "assets/profiles/잔상.jpg"
+    "nickname": "지능범",
+    "message": "나는 AI",
+    "profile_image": "assets/profiles_2026/지능범.jpg"
   },
   {
     "id": 18,
-    "nickname": "김케빈",
-    "message": "열정이 넘치는 많은 분들과 재미있게 즐겨보겠습니다!",
-    "profile_image": "assets/profiles/김케빈.jpeg"
+    "nickname": "딸깍괴물",
+    "message": "나는 개발자가 아닌 AI 오퍼레이터다",
+    "profile_image": "assets/profiles_2026/딸깍괴물.png"
   },
   {
     "id": 19,
-    "nickname": "그르르",
-    "message": "마음껏 누려버리겠습니다!",
-    "profile_image": "assets/profiles/그르르.png"
+    "nickname": "프사이스퀘어",
+    "message": "AI한테 과제를 시킨다. 잘하게 만든다.",
+    "profile_image": "assets/profiles_2026/프사이스퀘어.png"
   },
   {
     "id": 20,
-    "nickname": "프란",
-    "message": "삼천만원",
-    "profile_image": "assets/profiles/프란.jpeg"
+    "nickname": "김서호",
+    "message": "난 GPT Pro를 내 돈 내고 사용한다.",
+    "profile_image": "assets/profiles_2026/김서호.jpg"
   },
   {
     "id": 21,
-    "nickname": "박건영",
-    "message": "대회를 통해 AI 역량을 최대한 발휘하여 의미있는 성과를 만들어내고 싶습니다",
-    "profile_image": "assets/profiles/박건영.jpg"
+    "nickname": "키위",
+    "message": "나는 ai로 웹사이트를 만들어 팔아보고 실제 서비스도 진행해보고 글도쓰고...",
+    "profile_image": "assets/profiles_2026/키위.jpg"
   },
   {
     "id": 22,
-    "nickname": "시쿠",
-    "message": "Enjoy & Vibe",
-    "profile_image": "assets/profiles/시쿠.png"
+    "nickname": "인공지능조련사",
+    "message": "AI로 서비스 기획부터 개발·운영까지 직접 수행해왔다",
+    "profile_image": "assets/profiles_2026/인공지능조련사.webp"
   },
   {
     "id": 23,
-    "nickname": "아키텍",
-    "message": "미래의 다가올 뉴노멀을 맞이하는 기념비적인 대회라 생각하며 좋은 경험을 가져가 보겠습니다.",
-    "profile_image": "assets/profiles/아키텍.png"
+    "nickname": "즐기다갈게요",
+    "message": "나는 매일 AI를 활용해 개발 생산성을 높이고 새로운 서비스의 아이디어를...",
+    "profile_image": "assets/profiles_2026/즐기다갈게요.jpeg"
   },
   {
     "id": 24,
-    "nickname": "노리치테리어",
-    "message": "온김에 열심히 합시다",
-    "profile_image": "assets/profiles/노리치테리어.jpeg"
+    "nickname": "제이슨김",
+    "message": "나는 Ai를 강아지훈련에 사용한다",
+    "profile_image": "assets/profiles_2026/제이슨김.jpg"
   },
   {
     "id": 25,
-    "nickname": "준영",
-    "message": "재미있는 대회라서 벌써 기대됩니다. 좋은 성과 내보겠습니다!",
-    "profile_image": "assets/profiles/준영.png"
+    "nickname": "김지환",
+    "message": "하루 1억 토큰 이상 LLM 사용하는 사람",
+    "profile_image": "assets/profiles_2026/김지환.png"
   },
   {
     "id": 26,
-    "nickname": "스카이워커",
-    "message": "본선에 진출하다니 너무 기쁩니다. 의미 있는 성과를 거둘 수 있도록 최선을 다 하겠습니다.",
-    "profile_image": "assets/profiles/스카이워커.jpg"
+    "nickname": "카일",
+    "message": "나는 다양한 AI 모델을 적재적소에 지휘하여 머릿속 아이디어를 구현한다.",
+    "profile_image": "assets/profiles_2026/카일.jpeg"
   },
   {
     "id": 27,
-    "nickname": "코딩빌런",
-    "message": "본선 참여하게 돼서 기쁩니다. 다른 참가자 분들에게 많이 배워가고 싶습니다!",
-    "profile_image": "assets/profiles/코딩빌런.png"
+    "nickname": "겨울냉면",
+    "message": "나는 AI와 함께 일하고 공부하는 사람이고, 매달 AI월세 100만원씩을...",
+    "profile_image": "assets/profiles_2026/겨울냉면.jpeg"
   },
   {
     "id": 28,
-    "nickname": "한교동",
-    "message": "상금은 제가 받도록 하겠습니다",
-    "profile_image": "assets/profiles/한교동.png"
+    "nickname": "김태욱",
+    "message": "나는 올해 AI를 활용해서 회사 업무 프로세스를 거의 모두 바꿨다.",
+    "profile_image": "assets/profiles_2026/김태욱.png"
   },
   {
     "id": 29,
-    "nickname": "방희락",
-    "message": "좋은 기회를 주셔서 감사합니다. 최선을 다해보겠습니다!",
-    "profile_image": "assets/profiles/방희락.png"
+    "nickname": "태셔",
+    "message": "이제 AI 없이 살았던 생활이 생각이 안난다",
+    "profile_image": "assets/profiles_2026/태셔.jpg"
   },
   {
     "id": 30,
-    "nickname": "백상현",
-    "message": "최선을 다해 좋은 결과를 꼭 이루겠습니다.",
-    "profile_image": "assets/profiles/백상현.jpeg"
+    "nickname": "장인",
+    "message": "부모님께서 제가 AI랑 결혼할까봐 진지하게 걱정하십니다(자꾸 영화 HER...",
+    "profile_image": "assets/profiles_2026/장인.jpg"
   },
   {
     "id": 31,
-    "nickname": "나는상어당",
-    "message": "최고의 AI 사용자는 아닐 수 있지만 대회 최고의 플레이어가 될 것입니다.",
-    "profile_image": "assets/profiles/나는상어당.jpeg"
+    "nickname": "토큰살살녹는다",
+    "message": "AI 에이전트를 활용한 워크플로우를 구축하여 보안 기술 연구 및 개발을...",
+    "profile_image": "assets/profiles_2026/토큰살살녹는다.jpeg"
   },
   {
     "id": 32,
-    "nickname": "우마이",
-    "message": "마음을 불태워라. 한계를 넘어서라.",
-    "profile_image": "assets/profiles/우마이.png"
+    "nickname": "마켓파일럿",
+    "message": "비밀......",
+    "profile_image": "assets/profiles_2026/마켓파일럿.png"
   },
   {
     "id": 33,
-    "nickname": "집떠나면고생",
-    "message": "돈 많이 벌기",
-    "profile_image": "assets/profiles/집떠나면고생.jpg"
+    "nickname": "노스트라다무스",
+    "message": "나는 AI로 전국 대학 미식축구대회 준우승까지 해봤다",
+    "profile_image": "assets/profiles_2026/노스트라다무스.jpeg"
   },
   {
     "id": 34,
-    "nickname": "서재원",
-    "message": "평소의 구독료가 헛되지 않았음을 증명하도록 하겠습니다.",
-    "profile_image": "assets/profiles/서재원.png"
+    "nickname": "무찌빠",
+    "message": "나는 AI로 개발과 학문적 지식을 넓힌다.",
+    "profile_image": "assets/profiles_2026/무찌빠.jpeg"
   },
   {
     "id": 35,
-    "nickname": "미음",
-    "message": "Always Learning. Always Building.",
-    "profile_image": "assets/profiles/미음.png"
+    "nickname": "유니",
+    "message": "AI로 일정 관리부터 필요한 서비스 개발까지 다 하고 있어요",
+    "profile_image": "assets/profiles_2026/유니.webp"
   },
   {
     "id": 36,
-    "nickname": "원두커피",
-    "message": "잘부탁드립니다",
-    "profile_image": "assets/profiles/원두커피.jpeg"
+    "nickname": "아롱",
+    "message": "나는 AI 역량을 늘리기 위해서 관련 부트캠프를 수료했다.",
+    "profile_image": "assets/profiles_2026/아롱.jpg"
   },
   {
     "id": 37,
-    "nickname": "별하솜",
-    "message": "반드시 입상하겠습니다",
-    "profile_image": "assets/profiles/별하솜.jpeg"
+    "nickname": "감비",
+    "message": "AI가 내 모든 개인데이터를 학습하여 나도 모르는 나를 알려준다.",
+    "profile_image": "assets/profiles_2026/감비.png"
   },
   {
     "id": 38,
-    "nickname": "잘모릅니다",
-    "message": "잘 모르지만 끝까지 가보겠습니다.",
-    "profile_image": "assets/profiles/잘모릅니다.png"
+    "nickname": "시은",
+    "message": "클로드코드 계정 3개 돌리고 토큰 400억개 사용해봤습니다",
+    "profile_image": "assets/profiles_2026/시은.jpg"
   },
   {
     "id": 39,
-    "nickname": "설코딩",
-    "message": "열심히 준비해서 좋은 추억 만들고 싶어요!",
-    "profile_image": "assets/profiles/설코딩.png"
+    "nickname": "박재선",
+    "message": "나는 AI로 휴학하고 사업하고 있다.",
+    "profile_image": "assets/profiles_2026/박재선.jpg"
   },
   {
     "id": 40,
-    "nickname": "소대장",
-    "message": "한 수 배워가겠습니다",
-    "profile_image": "assets/profiles/소대장.png"
+    "nickname": "개고양이",
+    "message": "AI로 복잡한 문제 풀고 일을 마구 시킨다",
+    "profile_image": "assets/profiles_2026/개고양이.png"
   },
   {
     "id": 41,
-    "nickname": "츄파츕스",
-    "message": "최선을 다해서 열심히 해보겠습니다!",
-    "profile_image": "assets/profiles/츄파츕스.jpeg"
+    "nickname": "현빈",
+    "message": "나는 AI로 돈을 번다",
+    "profile_image": "assets/profiles_2026/현빈.jpeg"
   },
   {
     "id": 42,
-    "nickname": "이즈비",
-    "message": "주어진 시간동안 최선을 다해 재밌고 즐겁게 참여하겠습니다.",
-    "profile_image": "assets/profiles/이즈비.png"
+    "nickname": "카이로스",
+    "message": "나는 AI로 나의 삶의 시간/학습/목표 관리를 레버리지 하고 있다.",
+    "profile_image": "assets/profiles_2026/카이로스.jpg"
   },
   {
     "id": 43,
-    "nickname": "메가리치맨",
-    "message": "일하면서 놀면서 쌓아왔던 AI 능력을 모두 활용하여 본선에서 우승하겠습니다.",
-    "profile_image": "assets/profiles/메가리치맨.jpg"
+    "nickname": "모아이석상",
+    "message": "나는 AI로 500만원을 벌었다.",
+    "profile_image": "assets/profiles_2026/모아이석상.jpg"
   },
   {
     "id": 44,
-    "nickname": "송단호",
-    "message": "예선도 너무 즐거운 경험이었습니다! 많은 것들 배우고 즐기는 시간이 되었으면 합니다!",
-    "profile_image": "assets/profiles/송단호.jpg"
+    "nickname": "코스닥삼천",
+    "message": "나는 AI로 코인선물 트레이딩 봇을 만들었다가 500을 날렸다.",
+    "profile_image": "assets/profiles_2026/코스닥삼천.jpg"
   },
   {
     "id": 45,
-    "nickname": "신종",
-    "message": "잘부탁드립니다",
-    "profile_image": "assets/profiles/신종.jpeg"
+    "nickname": "에이드",
+    "message": "나는 유능한 개인 TA인 AI와 함께 매일 기술적 한계를 넘어섭니다.",
+    "profile_image": "assets/profiles_2026/에이드.jpeg"
   },
   {
     "id": 46,
-    "nickname": "거북이",
-    "message": "최선을 다해 일 시키겠습니다",
-    "profile_image": "assets/profiles/거북이.png"
+    "nickname": "터미네이터",
+    "message": "나는 AI로 기획, 디자인, 웹, 앱, 서버를 1인 개발하여 서비스를 만...",
+    "profile_image": "assets/profiles_2026/터미네이터.svg"
   },
   {
     "id": 47,
-    "nickname": "안도훈",
-    "message": "화이팅",
-    "profile_image": "assets/profiles/안도훈.jpeg"
+    "nickname": "머랭",
+    "message": "AI를 개발 동료로, 기획부터 배포까지 서비스를 만들어보았습니다.",
+    "profile_image": "assets/profiles_2026/머랭.png"
   },
   {
     "id": 48,
-    "nickname": "렉스",
-    "message": "AI는 거대한 파도입니다. 파도를 막을 수는 없지만, 우리는 서퍼가 될 수 있습니다.",
-    "profile_image": "assets/profiles/렉스.jpg"
+    "nickname": "스태",
+    "message": "Claude code 외엔 허상이다",
+    "profile_image": "assets/profiles_2026/스태.png"
   },
   {
     "id": 49,
-    "nickname": "육대근",
-    "message": "뭐 어떻게든 되겠지...",
-    "profile_image": "assets/profiles/육대근.jpg"
+    "nickname": "하늘에서겠다",
+    "message": "나의 일상생활에는 AI가 녹아있다.",
+    "profile_image": "assets/profiles_2026/하늘에서겠다.jpg"
   },
   {
     "id": 50,
-    "nickname": "불혹바이브코딩",
-    "message": "40대 비개발자 아빠의 도전! 가족에게 도전하는 모습 보이며 성장하겠습니다",
-    "profile_image": "assets/profiles/불혹바이브코딩.png"
+    "nickname": "인썰",
+    "message": "나는 AI로 보안을 공부한다.",
+    "profile_image": "assets/profiles_2026/인썰.png"
   },
   {
     "id": 51,
-    "nickname": "오호라",
-    "message": "인간과 AI의 상호작용을 통해 더 나은 사회를 향한 첫걸음을 내딛겠습니다.",
-    "profile_image": "assets/profiles/오호라.png"
+    "nickname": "시나브",
+    "message": "나는 AI와 친해지는 중이다.",
+    "profile_image": "assets/profiles_2026/시나브.jpeg"
   },
   {
     "id": 52,
-    "nickname": "알고리듬",
-    "message": "AI와 친해지는 중이지만, 흐름을 타고 어려운 문제도 해결하겠습니다.",
-    "profile_image": "assets/profiles/알고리듬.png"
+    "nickname": "정통무협",
+    "message": "AI를 통한 아이디어의 체계화/구조화를 통해 아이디어를 실제로 구현하는...",
+    "profile_image": "assets/profiles_2026/정통무협.png"
   },
   {
     "id": 53,
-    "nickname": "리키",
-    "message": "자 본선 드가자~",
-    "profile_image": "assets/profiles/리키.png"
+    "nickname": "잠만보",
+    "message": "교내 학생들이 무료로 사용할 수 있는 클라우드 관리형 DB를 AI를 활용...",
+    "profile_image": "assets/profiles_2026/잠만보.jpg"
   },
   {
     "id": 54,
-    "nickname": "이동호",
-    "message": "되는데까지 해보겠습니다",
-    "profile_image": "assets/profiles/이동호.jpeg"
+    "nickname": "지존지영짱",
+    "message": "나는 AI와 함께 살아간다.",
+    "profile_image": "assets/profiles_2026/지존지영짱.jpeg"
   },
   {
     "id": 55,
-    "nickname": "가나당",
-    "message": "기왕이니 1등을 노려보겠습니다",
-    "profile_image": "assets/profiles/가나당.jpg"
+    "nickname": "칸예웨스트",
+    "message": "하루종일 AI 켜놓고 모든 일을 AI와 함께 합니다.",
+    "profile_image": "assets/profiles_2026/칸예웨스트.jpg"
   },
   {
     "id": 56,
-    "nickname": "이림",
-    "message": "그냥 하는거죠.",
-    "profile_image": "assets/profiles/이림.jpg"
+    "nickname": "바이브규트리버",
+    "message": "나는 AI가 나에게 욕을 할 정도로 AI를 부려먹으면서 일을 시켰다.",
+    "profile_image": "assets/profiles_2026/바이브규트리버.png"
   },
   {
     "id": 57,
-    "nickname": "상민중한명",
-    "message": "재밌는 문제와 함께 신나게 즐겨보겠습니다",
-    "profile_image": "assets/profiles/상민중한명.png"
+    "nickname": "씨리얼",
+    "message": "나는 매일 자기전 AI에게 작업을 맡기고 잠을 잡니다.",
+    "profile_image": "assets/profiles_2026/씨리얼.jpg"
   },
   {
     "id": 58,
-    "nickname": "이선민",
-    "message": "본선은 AI 축제라 생각하고 즐기다 오겠습니다!",
-    "profile_image": "assets/profiles/이선민.png"
+    "nickname": "따일",
+    "message": "\"나는 AI에 영혼을 팔았다 AI가 나 그 자체다.\"",
+    "profile_image": "assets/profiles_2026/따일.png"
   },
   {
     "id": 59,
-    "nickname": "빈프로",
-    "message": "저진짜열심히할게요",
-    "profile_image": "assets/profiles/빈프로.jpeg"
+    "nickname": "달",
+    "message": "단순 AI 활용을 넘어 AI 팀을 어떻게 구축할지 고민하고 있습니다.",
+    "profile_image": "assets/profiles_2026/달.png"
   },
   {
     "id": 60,
-    "nickname": "우디",
-    "message": "하면 된다 할 수 있다 아자아자 화이팅",
-    "profile_image": "assets/profiles/우디.jpeg"
+    "nickname": "준준",
+    "message": "AI Maximizer",
+    "profile_image": "assets/profiles_2026/준준.jpeg"
   },
   {
     "id": 61,
-    "nickname": "이유종",
-    "message": "열심히 해보겠습니다.",
-    "profile_image": "assets/profiles/이유종.jpeg"
+    "nickname": "시로",
+    "message": "나는 AI로 인간다움을 찾는다",
+    "profile_image": "assets/profiles_2026/시로.png"
   },
   {
     "id": 62,
-    "nickname": "지니준",
-    "message": "통제된 AI = 완성된 성공 방정식",
-    "profile_image": "assets/profiles/지니준.png"
+    "nickname": "깜피",
+    "message": "나는 AI를 효율적으로 활용할 수 있으며, 매일 개발과 분석에 인공지능을...",
+    "profile_image": "assets/profiles_2026/깜피.png"
   },
   {
     "id": 63,
-    "nickname": "울새",
-    "message": "울새는 영역 확장 중.",
-    "profile_image": "assets/profiles/울새.jpg"
+    "nickname": "춤추는드워프",
+    "message": "나는 AI 로 오늘의 사주팔자를 본다.",
+    "profile_image": "assets/profiles_2026/춤추는드워프.jpg"
   },
   {
     "id": 64,
-    "nickname": "김자반",
-    "message": "수많은 개발자들 사이에서 살아남는 영상제작자가 되겠습니다. 대한민국 영상인 화이팅!",
-    "profile_image": "assets/profiles/김자반.jpg"
+    "nickname": "지롱",
+    "message": "나는 매일 AI로 업무를 적극 활용 하곤 한다\n - 단순 데이터 전처리...",
+    "profile_image": "assets/profiles_2026/지롱.heic"
   },
   {
     "id": 65,
-    "nickname": "파도",
-    "message": "GPT와 열심히 친해진 만큼 우정을 증명해 보겠습니다!",
-    "profile_image": "assets/profiles/파도.jpeg"
+    "nickname": "건팡",
+    "message": "나는 사람보다 AI랑 더 많이 대화한다.",
+    "profile_image": "assets/profiles_2026/건팡.jpg"
   },
   {
     "id": 66,
-    "nickname": "도돌",
-    "message": "미국에서 한국 가는 만큼, 비행기 값은 벌고 가겠습니다!",
-    "profile_image": "assets/profiles/도돌.jpeg"
+    "nickname": "코딩하는문돌이",
+    "message": "나는 AI로 최애캐를 만들었고, 문학을 연구한다!",
+    "profile_image": "assets/profiles_2026/코딩하는문돌이.png"
   },
   {
     "id": 67,
-    "nickname": "의문의부산대생",
-    "message": "AI 시대에 맞는 좋은 취지의 대회를 마련해주셔서 감사합니다. 많이 배워가겠습니다.",
-    "profile_image": "assets/profiles/의문의부산대생.jpg"
+    "nickname": "한글일곱자이내",
+    "message": "AI coding으로 캠퍼스타운 창업경진대회에 선정되어봤다.",
+    "profile_image": "assets/profiles_2026/한글일곱자이내.jpg"
   },
   {
     "id": 68,
-    "nickname": "종스카이",
-    "message": "ALL IS WELL!",
-    "profile_image": "assets/profiles/종스카이.png"
+    "nickname": "임지훈",
+    "message": "ai로 영화를 만듭니다.",
+    "profile_image": "assets/profiles_2026/임지훈.jpg"
   },
   {
     "id": 69,
-    "nickname": "이찬회",
-    "message": "잘해보자",
-    "profile_image": "assets/profiles/이찬회.jpg"
+    "nickname": "찌그러진뇌",
+    "message": "나는 AI로 밥먹는 거 빼고 다 시킵니다.",
+    "profile_image": "assets/profiles_2026/찌그러진뇌.jpg"
   },
   {
     "id": 70,
-    "nickname": "챗과장",
-    "message": "AI하면 ‘챗과장’이 떠오르도록 본선도 철저히 준비하겠습니다!",
-    "profile_image": "assets/profiles/챗과장.png"
+    "nickname": "고급생체배터리",
+    "message": "나는 내가 만든 AI 코미디언보다 재밌어지기 위해 매일 사투한다",
+    "profile_image": "assets/profiles_2026/고급생체배터리.png"
   },
   {
     "id": 71,
-    "nickname": "이흥규",
-    "message": "겸손하게 열심히, 잘 해보겠습니다!",
-    "profile_image": "assets/profiles/이흥규.jpg"
+    "nickname": "미노",
+    "message": "저는 저만의 하네스를 만들기 위해 많은 토큰을 태우며, 매일 AI로 새로...",
+    "profile_image": "assets/profiles_2026/미노.jpeg"
   },
   {
     "id": 72,
-    "nickname": "똘에이아이",
-    "message": "화이팅",
-    "profile_image": "assets/profiles/똘에이아이.jpg"
+    "nickname": "비포맷",
+    "message": "나는 AI가 AI를 사용하게 한다.",
+    "profile_image": "assets/profiles_2026/비포맷.png"
   },
   {
     "id": 73,
-    "nickname": "수민",
-    "message": "학부 졸업 전 라스트댄스, 중요한 건 꺾이지 않는 마음!",
-    "profile_image": "assets/profiles/수민.png"
+    "nickname": "난관에무전취식",
+    "message": "나는 내가 하는 거의 모든 일들을 AI와 협업한다.",
+    "profile_image": "assets/profiles_2026/난관에무전취식.jpg"
   },
   {
     "id": 74,
-    "nickname": "나트",
-    "message": "재미있게 즐기다 가겠습니다!",
-    "profile_image": "assets/profiles/나트.png"
+    "nickname": "정민성",
+    "message": "나는 매일 AI로 프로덕트를 만든다.",
+    "profile_image": "assets/profiles_2026/정민성.png"
   },
   {
     "id": 75,
-    "nickname": "민규",
-    "message": "언제나 배우는 자세로 임하겠습니다!!!",
-    "profile_image": "assets/profiles/민규.png"
+    "nickname": "정보승",
+    "message": "기획도, 디자인도, 개발도, 문서 작업, 마케팅도 AI로 합니다.",
+    "profile_image": "assets/profiles_2026/정보승.jpg"
   },
   {
     "id": 76,
-    "nickname": "리코타",
-    "message": "툴을 만드는 사람이 툴을 가장 잘 다룰 줄 알아야 한다고 생각합니다. 최선을 다하겠습니다!",
-    "profile_image": "assets/profiles/리코타.png"
+    "nickname": "토큰먹는괴물",
+    "message": "나는 매일 AI로 새로운 것들을 배워나가며 책임 범위를 늘려나간다.",
+    "profile_image": "assets/profiles_2026/토큰먹는괴물.png"
   },
   {
     "id": 77,
-    "nickname": "코점스튜디오",
-    "message": "시대 정신 그리고 인간 역사에 터닝 포인트를 만들고자 파트너 AI와 함께 합니다.",
-    "profile_image": "assets/profiles/코점스튜디오.jpg"
+    "nickname": "정재원",
+    "message": "나는 AI로 삽질을 한다",
+    "profile_image": "assets/profiles_2026/정재원.jpg"
   },
   {
     "id": 78,
-    "nickname": "후니",
-    "message": "대단한 분들 사이에서 살아남아보겠다",
-    "profile_image": "assets/profiles/후니.png"
+    "nickname": "일등은내꺼",
+    "message": "AI로 코드 생성, 콘텐츠 생성, 자료 조사, 커뮤니케이션 등등 많은 부...",
+    "profile_image": "assets/profiles_2026/일등은내꺼.jpg"
   },
   {
     "id": 79,
-    "nickname": "프날",
-    "message": "대회가 끝난 후 모두가 제 이름을 기억하게 만들겠습니다.",
-    "profile_image": "assets/profiles/프날.png"
+    "nickname": "정보섬수감자",
+    "message": "나는 AI로 여자친구 심리분석을 할 수 있다",
+    "profile_image": "assets/profiles_2026/정보섬수감자.jpg"
   },
   {
     "id": 80,
-    "nickname": "정병기",
-    "message": "좋은기회 주셔서 감사합니다. 생각지 못했어서 아직 얼떨떨 합니다만 최선을 다해보겠습니다.",
-    "profile_image": "assets/profiles/정병기.png"
+    "nickname": "도넛",
+    "message": "나는 매 수업을 녹음해 강의자료와 함께 AI에게 넘겨 요약본으로만 공부한...",
+    "profile_image": "assets/profiles_2026/도넛.jpg"
   },
   {
     "id": 81,
-    "nickname": "원타츄",
-    "message": "문제가 다소 어려워서 본선 진출을 기대하지 않았는데, 기왕 이렇게 된거 열심히 해보겠습니다",
-    "profile_image": "assets/profiles/원타츄.jpg"
+    "nickname": "티라노사우루스",
+    "message": "저는 AI로 기획하고, AI로 제작하고, AI에게 검수받고 보고서까지 A...",
+    "profile_image": "assets/profiles_2026/티라노사우루스.jpeg"
   },
   {
     "id": 82,
-    "nickname": "테스트",
-    "message": "그냥 참가자1입니다",
-    "profile_image": "assets/profiles/테스트.jpg"
+    "nickname": "조승용",
+    "message": "나는 AI로 기술 학습과 문제 해결에 활용한다.",
+    "profile_image": "assets/profiles_2026/조승용.jpg"
   },
   {
     "id": 83,
-    "nickname": "정현민",
-    "message": "끝까지 간다.",
-    "profile_image": "assets/profiles/정현민.jpg"
+    "nickname": "엄마상타서갈꼐",
+    "message": "나는 AI에 월 63만원을 투자하며 개발 효율을 극대화한다",
+    "profile_image": "assets/profiles_2026/엄마상타서갈꼐.jpg"
   },
   {
     "id": 84,
-    "nickname": "딥식이",
-    "message": "열심히 해보죠",
-    "profile_image": "assets/profiles/딥식이.png"
+    "nickname": "핵심을찔렀어",
+    "message": "나는 AI를 하루도 빠짐없이 사용한다",
+    "profile_image": "assets/profiles_2026/핵심을찔렀어.png"
   },
   {
     "id": 85,
-    "nickname": "별이울리다",
-    "message": "평소에 자주 사용하던 만큼, 평소대로 재밌게 풀어보고 싶습니다",
-    "profile_image": "assets/profiles/별이울리다.jpg"
+    "nickname": "막스",
+    "message": "나는 AI기반 IDE와 웹 기반 AI 에이전트를 동시에 사용하여 인간지능...",
+    "profile_image": "assets/profiles_2026/막스.jpeg"
   },
   {
     "id": 86,
-    "nickname": "냐로",
-    "message": "제 실력을 확인해 보고 싶어요.",
-    "profile_image": "assets/profiles/냐로.png"
+    "nickname": "따이",
+    "message": "나는 AI랑 짱친이다",
+    "profile_image": "assets/profiles_2026/따이.png"
   },
   {
     "id": 87,
-    "nickname": "싸이버거",
-    "message": "재밌게 하겠습니다",
-    "profile_image": "assets/profiles/싸이버거.jpeg"
+    "nickname": "집념인",
+    "message": "현재 스타트업에서 풀스택 개발자로 근무 중이며, 현업에서 ai를 매우 적...",
+    "profile_image": "assets/profiles_2026/집념인.png"
   },
   {
     "id": 88,
-    "nickname": "최동혁",
-    "message": "시대의 속도보다 반발자국 앞서나가고 있는지, 이번 기회에 스스로를 점검해보겠습니다",
-    "profile_image": "assets/profiles/최동혁.jpg"
+    "nickname": "구리뽕",
+    "message": "나는 AI로 에이전트 설계를 해요",
+    "profile_image": "assets/profiles_2026/구리뽕.png"
   },
   {
     "id": 89,
-    "nickname": "겨울잠두꺼비",
-    "message": "클로드야 GPT야 잘하자! 화이팅!",
-    "profile_image": "assets/profiles/겨울잠두꺼비.png"
+    "nickname": "퍼밀리언",
+    "message": "매일 AI와 대화하며 영감을 얻고 문제를 해결합니다.",
+    "profile_image": "assets/profiles_2026/퍼밀리언.png"
   },
   {
     "id": 90,
-    "nickname": "뉴네다",
-    "message": "알잘딱깔센한 프롬프트로 AI를 탈탈 털어보겠습니다. AI TOP 100 준비 갈 완료!!",
-    "profile_image": "assets/profiles/뉴네다.jpeg"
+    "nickname": "관악산노루",
+    "message": "나는 일상의 모든 일을 AI와 함께한다",
+    "profile_image": "assets/profiles_2026/관악산노루.jpg"
   },
   {
     "id": 91,
-    "nickname": "애니프사승리",
-    "message": "청춘은 바로 지금~",
-    "profile_image": "assets/profiles/애니프사승리.jpg"
+    "nickname": "댕글링포인터",
+    "message": "나는 AI를 친구처럼 쓴다.",
+    "profile_image": "assets/profiles_2026/댕글링포인터.jpg"
   },
   {
     "id": 92,
-    "nickname": "정원",
-    "message": "화이팅",
-    "profile_image": "assets/profiles/정원.png"
+    "nickname": "표민규",
+    "message": "나는 AI로 생각을 현실로 만든다",
+    "profile_image": "assets/profiles_2026/표민규.jpg"
   },
   {
     "id": 93,
-    "nickname": "점핑맨",
-    "message": "좋은데요~",
-    "profile_image": "assets/profiles/점핑맨.png"
+    "nickname": "관엽",
+    "message": "AI가 좋아 창업까지 했습니다.",
+    "profile_image": "assets/profiles_2026/관엽.jpeg"
   },
   {
     "id": 94,
-    "nickname": "그린",
-    "message": "피할 수 없다면 즐겨라",
-    "profile_image": "assets/profiles/그린.jpg"
+    "nickname": "레서판다",
+    "message": "나는 레퍼런스 서칭부터 판단까지 다 AI로 한다",
+    "profile_image": "assets/profiles_2026/레서판다.jpg"
   },
   {
     "id": 95,
-    "nickname": "도하",
-    "message": "호랑이 기운으로 입상할 강력한 퍼포먼스를 보여드리겠습니다.",
-    "profile_image": "assets/profiles/도하.png"
+    "nickname": "토모야",
+    "message": "AI가 나보다 더 내가 되는과정",
+    "profile_image": "assets/profiles_2026/토모야.jpg"
   },
   {
     "id": 96,
-    "nickname": "하상현",
-    "message": "늘 하던대로 화이팅!",
-    "profile_image": "assets/profiles/하상현.jpg"
+    "nickname": "진격의웨하스",
+    "message": "나는 AI로 검색을 하곤 한다",
+    "profile_image": "assets/profiles_2026/진격의웨하스.jpg"
   },
   {
     "id": 97,
-    "nickname": "조시",
-    "message": "AI 제품을 만들고 있는 기획자, 이젠 무대 위에서 자존심을 업데이트한다 🚀",
-    "profile_image": "assets/profiles/조시.png"
+    "nickname": "졸라맨",
+    "message": "나는 ai를 검색도구로 쓰곤 한다.",
+    "profile_image": "assets/profiles_2026/졸라맨.png"
   },
   {
     "id": 98,
-    "nickname": "쿨크래커",
-    "message": "여단아, 선주야, 선우야 사랑해 ❤️",
-    "profile_image": "assets/profiles/쿨크래커.png"
+    "nickname": "황차빈",
+    "message": "나는 AI를 '잘' 쓰기 위해 최선을 다한다.",
+    "profile_image": "assets/profiles_2026/황차빈.png"
   },
   {
     "id": 99,
-    "nickname": "인간시대의끝이",
-    "message": "AI를 잘 활용해 보겠습니다.",
-    "profile_image": "assets/profiles/인간시대의끝이.jpeg"
+    "nickname": "말차송이",
+    "message": "일과 정리 AI 피드백과 바이브코딩 수상경험, AI 기반 IELTS 공부...",
+    "profile_image": "assets/profiles_2026/말차송이.jpeg"
   },
   {
     "id": 100,
-    "nickname": "대한",
-    "message": "AI 툴을 활용하여 문제를 잘 정의하고 풀어가는 과정에 몰입하겠습니다.",
-    "profile_image": "assets/profiles/대한.png"
-  },
-  {
-    "id": 101,
-    "nickname": "프롬크리에이터",
-    "message": "가장 기본적인 도구로 많은 일들을 할 수 있다는 것을 많은 사람들에게 알려주고 싶습니다.",
-    "profile_image": "assets/profiles/프롬크리에이터.jpeg"
-  },
-  {
-    "id": 102,
-    "nickname": "머핀",
-    "message": "심장을 바쳐라! 저의 한계에 도전해보겠습니다",
-    "profile_image": "assets/profiles/머핀.jpeg"
-  },
-  {
-    "id": 103,
-    "nickname": "잼영",
-    "message": "우승까지 가보겠습니다!!",
-    "profile_image": "assets/profiles/잼영.jpg"
-  },
-  {
-    "id": 104,
-    "nickname": "재승이",
-    "message": "열심히 그리고 재밌게 해보자! 그리고 많이 배워가겠습니다ㅎ",
-    "profile_image": "assets/profiles/재승이.png"
-  },
-  {
-    "id": 105,
-    "nickname": "빈종이",
-    "message": "이당근 양, 보고 있나! 🥕",
-    "profile_image": "assets/profiles/빈종이.png"
-  },
-  {
-    "id": 106,
-    "nickname": "구라타",
-    "message": "잘 즐기다가 가겠습니다~!",
-    "profile_image": "assets/profiles/구라타.jpg"
+    "nickname": "월드",
+    "message": "AI와의 pair, wise 된 나",
+    "profile_image": "assets/profiles_2026/월드.png"
   }
 ]

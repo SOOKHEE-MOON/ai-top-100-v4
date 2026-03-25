@@ -1,1 +1,24 @@
 .vercel
+.DS_Store
+
+# 개인정보 포함 파일 - 절대 업로드 금지
+★참여리스트_AI_TOP_100(CAMPUS).xlsx
+예선_참여자_1799명_개인정보포함_닉네임포함.csv
+
+# 작업용 스크립트 (배포 불필요)
+match_profiles.py
+match_report.json
+convert_data.py
+update_to_2026.py
+data_2026_template.csv
+backup_2025/
+
+# 원본 이미지 폴더
+2026 프로필보드 이미지/
+
+# 로고 원본
+AI_TOP_100(CAMPUS)logotype_basic_negative.png
+AI_TOP_100(CAMPUS)logotype_square_negative.png
+
+# 이전 버전 자료
+meeting_materials/
