@@ -193,7 +193,6 @@ body {
 /* 프로필 슬롯 */
 .profile-slot {
     display: inline-block;
-    overflow: hidden;
     flex-shrink: 0;
     opacity: 0;
     /* 부드러운 cubic-bezier 이징으로 자연스러운 모션 */
@@ -271,7 +270,6 @@ body {
     flex-direction: column;
     gap: 12px;
     min-width: 0;
-    overflow: hidden;
     /* 텍스트 영역 크기 변화도 부드럽게 */
     transition: all 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
     will-change: width;
@@ -284,7 +282,6 @@ body {
     color: #e0e0e0;
     white-space: nowrap;
     position: relative;
-    overflow: hidden;
 }
 
 /* 닉네임 와이프 효과 (1초) */
@@ -328,7 +325,6 @@ body {
     color: #FFFFFF;
     white-space: nowrap;
     position: relative;
-    overflow: hidden;
 }
 
 /* 메시지 와이프 효과 (1초) */
