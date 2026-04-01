@@ -108,7 +108,7 @@ body {
     justify-content: center;
     gap: 60px;
     padding: 0;
-    margin-top: -100px;
+    margin-top: -40px;
 }
 
 @keyframes scroll-left {
@@ -530,18 +530,13 @@ body {
     }
 }
 
-/* 고정 호스트 로고 (우측 하단, 스크롤 안 됨) */
-.fixed-hosts-logo {
-    position: absolute;
-    bottom: 100px; /* 하단 고정 */
-    right: 120px;
-    z-index: 200;
-    opacity: 0;
-    transition: opacity 0.8s ease-out;
-}
-
-#profiles.active .fixed-hosts-logo {
-    opacity: 1;
+/* 하단 호스트 로고 (프로필 영역 내부, 우측 정렬) */
+.bottom-hosts-logo {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
+    margin-top: 40px;
 }
 
 .hosts-logo-img {
