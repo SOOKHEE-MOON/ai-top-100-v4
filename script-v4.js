@@ -247,7 +247,7 @@ async function startProfileCycle() {
         startSlotCycle(slotNumber);
         startSlotCycle((slotNumber + 17) % 35);
         // console.log(`🎬 Slot ${slotNumber} started (after ${startDelay/1000}s delay)`);
-        slotNumber = (slotNumber + 7) % 35;
+        slotNumber = (slotNumber + 4) % 35;
         setTimeout(cycleSlot, 2000);
     })();    
 
