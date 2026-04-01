@@ -270,7 +270,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    min-width: 0;
     /* 텍스트 영역 크기 변화도 부드럽게 */
     transition: all 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
     will-change: width;
@@ -536,12 +535,12 @@ body {
     display: flex;
     justify-content: flex-end;
     padding-right: 120px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .hosts-logo-img {
-    max-width: 1800px;
-    max-height: 600px;
+    max-width: 4000px;
+    max-height: 150px;
     width: auto;
     height: auto;
     object-fit: contain;
