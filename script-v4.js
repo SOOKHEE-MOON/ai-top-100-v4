@@ -13,14 +13,16 @@ const TIMING = {
 // 통일된 노출 시간
 const PROFILE_DISPLAY_TIME = 12000; // 12초 (모든 슬롯 동일)
 
-// 슬롯별 프로필 개수 (2026: 100명 = 25슬롯 × 4명, 딱 맞음)
+// 슬롯별 프로필 개수 (2026: 100명 = 35슬롯, 30슬롯×3명 + 5슬롯×2명)
 const SLOT_PROFILE_COUNTS = {
-    0: 4, 1: 4, 2: 4, 3: 4, 4: 4,
-    5: 4, 6: 4, 7: 4, 8: 4, 9: 4,
-    10: 4, 11: 4, 12: 4, 13: 4, 14: 4,
-    15: 4, 16: 4, 17: 4, 18: 4, 19: 4,
-    20: 4, 21: 4, 22: 4, 23: 4, 24: 4
-    // 총 25개 슬롯 × 4명 = 100명
+    0: 3, 1: 3, 2: 3, 3: 3, 4: 3,
+    5: 3, 6: 3, 7: 3, 8: 3, 9: 3,
+    10: 3, 11: 3, 12: 3, 13: 3, 14: 3,
+    15: 3, 16: 3, 17: 3, 18: 3, 19: 3,
+    20: 3, 21: 3, 22: 3, 23: 3, 24: 3,
+    25: 3, 26: 3, 27: 3, 28: 3, 29: 3,
+    30: 2, 31: 2, 32: 2, 33: 2, 34: 2
+    // 30슬롯×3명 + 5슬롯×2명 = 90+10 = 100명
 };
 
 // 각 슬롯의 프로필 시퀀스 (중복 방지)
@@ -46,9 +48,9 @@ async function loadData() {
         }).join('');
 
         templates.childNodes.forEach((element) => {
-            // 실제 크기를 측정
+            // 실제 크기를 측정 (+10px 여유분: offsetWidth 반올림으로 글자 잘림 방지)
             if (element.offsetWidth) {
-                element.style.width = `${element.offsetWidth}px`;
+                element.style.width = `${element.offsetWidth + 10}px`;
             }
         });
 
@@ -57,7 +59,7 @@ async function loadData() {
         // 6개 슬롯 × 5명 = 30명, 19개 슬롯 × 4명 = 76명, 총 106명
 
         let profileCounter = 0;
-        slotProfileSequences = Array(25).fill(0).map((_, slotIndex) => {
+        slotProfileSequences = Array(35).fill(0).map((_, slotIndex) => {
             const sequence = [];
             const profilesPerSlot = SLOT_PROFILE_COUNTS[slotIndex];
 
@@ -75,7 +77,7 @@ async function loadData() {
         });
 
         // 각 슬롯의 현재 인덱스 초기화
-        slotCurrentIndex = Array(25).fill(0);
+        slotCurrentIndex = Array(35).fill(0);
 
         console.log('📝 Slot profile distribution (25개 슬롯 모두 다른 시간):');
         console.log('Slot 0 (6.0s, 5명):', slotProfileSequences[0]);
@@ -101,7 +103,7 @@ async function loadData() {
 function initializeSlots() {
     console.log('🎨 Initializing slots (original 25 only)...');
 
-    Array.from({ length: 25}, (_, slotNumber) => {
+    Array.from({ length: 35}, (_, slotNumber) => {
         // 각 슬롯의 첫 번째 프로필 가져오기
         const profileIndex = slotProfileSequences[slotNumber][0];
         const profile = document.getElementById(`profile-${profileIndex}`);
@@ -243,9 +245,9 @@ async function startProfileCycle() {
 
     (function cycleSlot() {
         startSlotCycle(slotNumber);
-        startSlotCycle((slotNumber + 12) % 25);
+        startSlotCycle((slotNumber + 17) % 35);
         // console.log(`🎬 Slot ${slotNumber} started (after ${startDelay/1000}s delay)`);
-        slotNumber = (slotNumber + 7) % 25;
+        slotNumber = (slotNumber + 7) % 35;
         setTimeout(cycleSlot, 2000);
     })();    
 
